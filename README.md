@@ -9,7 +9,7 @@
 
 ### Step 2: To Place a folder structure in right location preferebaly xampp
 ```
-ysuite
+ysuite_project
     |---connection.php
     |---index.php
     |---add_customer.php
@@ -24,4 +24,4 @@ ysuite
 - Place the whole folder named ysuite under htdocs
 - Open Xampp Control Panel and start apache and mysql server
 - Make sure connecting with intenet just in the start in order to load bootstrap links and scripts, cdn links until gets stored in the cache. 
-- Run the application on browser at http://localhost/ysuite
+- Run the application on browser at http://localhost/ysuite_project
