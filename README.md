@@ -22,8 +22,6 @@ ysuite
 ```
 
 - Place the whole folder named ysuite under htdocs
-### Very Very Important (Its not possible to send zip file which includes .js files)
-> Rename the file named "index.txt" --> "index.js" 
 - Open Xampp Control Panel and start apache and mysql server
 - Make sure connecting with intenet just in the start in order to load bootstrap links and scripts, cdn links until gets stored in the cache. 
 - Run the application on browser at http://localhost/ysuite
