@@ -1,4 +1,4 @@
-# ysuite
+# ysuite exercise 1
 ## Instructions about Main Application configuration
 
 ### Step 1: To configure MySQL database
