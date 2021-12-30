@@ -2,7 +2,7 @@
 ## Instructions about Main Application configuration
 
 ### Step 1: To configure MySQL database
-- In folder sql there is a file named costomers.sql
+- In folder sql there is a file named customers.sql
 - Open that file copy the contents and paste it in MySQL workbench or phpMyAdmin. This is a core start of making database.
 - It is recommended to maintain the same name as for database, table as db, customers respectively.
 - Make changes in connection.php according to the requirements (password, user only).
