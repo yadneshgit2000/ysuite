@@ -1,4 +1,4 @@
-# ysuite exercise 1
+# ysuite_project exercise 1 (HTML, CSS, Bootstrap4, Javascript, JQuery, PHP, MySQL)
 ## Instructions about Main Application configuration
 
 ### Step 1: To configure MySQL database
@@ -25,3 +25,5 @@ ysuite_project
 - Open Xampp Control Panel and start apache and mysql server
 - Make sure connecting with intenet just in the start in order to load bootstrap links and scripts, cdn links until gets stored in the cache. 
 - Run the application on browser at http://localhost/ysuite_project
+
+# ysuite_ex_2 exercise 2 (HTML, CSS, Bootstrap4, Javascript)
