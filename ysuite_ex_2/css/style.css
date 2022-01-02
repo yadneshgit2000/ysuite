@@ -1,0 +1,141 @@
+nav button{
+    background-color:rgb(96, 148, 118);
+    color:white;
+    font-weight:bold;
+}
+nav .active{
+    background-color: rgb(37, 104, 82);
+}
+.horizontal-scrollable>.btn{
+    display: inline-block;
+}
+.container{
+    display: flex;
+    margin:20px 10px;
+    height:90px;
+    background-color: rgb(9, 140, 228);
+    overflow-x: auto;
+    bottom:10px;
+    border-radius:5px;    
+}
+.child {
+    padding: 10px;
+    margin: 0 5px;
+    align-content: center;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+    font-weight:bold;
+}
+.container .active{
+    background-color: rgb(13, 100, 199)
+}
+.cards{
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards .card{
+    background-color:rgb(18, 57, 109);
+    padding: 5px 0px 5px 10px;
+    width:120px;
+    height:120px;
+    color: white; 
+    overflow:hidden;
+    cursor:pointer;
+    margin:5px;
+}
+.middle{
+    display:flex;
+    margin:20px 10px;
+}
+.right-container{
+    margin: 15px;
+}
+.mkbold{
+    font-weight: bold;
+}
+.tables{
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px 0px;
+}
+.table{
+    padding: 25px 8px;
+    margin:0px 0px 15px 15px;
+    border-radius: 5px;
+    text-align:center;
+    cursor:pointer;
+    height:80px;
+    width:80px;
+    background-color: grey;
+    color:white;
+}
+.tables .active{
+    background-color: rgb(18, 57, 109);
+}
+
+.item{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 15px;
+}
+.checkout{
+    display:inline;
+    float:left;
+    display: flex;
+    margin:0px;
+}
+#btnrem{
+    margin-right:10px;
+}
+
+#btnminus, #btnplus, #btnrem{
+    font-weight: bold;
+    font-size:18;
+    text-align: center;
+    width:25px;
+    cursor:pointer;
+    height:29px;
+    background-color: red;
+    color:white;
+    border:0.5px solid black;
+    border-radius: 2.5px;
+}
+#btnplus{
+    background-color: rgb(12, 189, 21);
+}
+.countInput{
+    margin:0px;
+    height:29px;
+    width:70px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-left:5px;
+    border:0.5px solid black;
+}
+#totalPrice{
+    margin-left:15px;
+    border-radius: 3px;
+}
+.item label{
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    width:100px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.modal-footer{
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    height:50px;
+}
+.summary{
+    position:fixed;
+    left:20px;
+    font-weight: bold;
+    text-align:center;
+    margin-top:8px;
+}
